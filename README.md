@@ -23,3 +23,10 @@ The data analysis segment of the code extracts the network data from the .csv fi
 This functionality is the most customised to analysing *Shaka Zulu*, for example creating a duplicate set of network data without the main character Shaka. This can be altered though.
 
 The code is structured in a way that should make it easy to customise the data extracted from the network. In networkAnalysis/graph.py, various other functions are imported then called to extract information from the network.
+
+### Other Scripts
+Outside of these two main pieces of functionality, we have included two additional scripts.
+
+randomGraph.py generates random graphs with the same average degree as the one being analysed, but requires the number of nodes and the mean degree to be altered before use.
+
+degdist.py generates a series of plots of the degree distribution of the network, but before use the degrees and their frequencies must be updated.
