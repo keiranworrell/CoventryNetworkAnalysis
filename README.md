@@ -30,3 +30,6 @@ Outside of these two main pieces of functionality, we have included two addition
 randomGraph.py generates random graphs with the same average degree as the one being analysed, but requires the number of nodes and the mean degree to be altered before use.
 
 degdist.py generates a series of plots of the degree distribution of the network, but before use the degrees and their frequencies must be updated.
+
+## Data
+We also include all data generated during the project in the 'Data' directory
