@@ -40,8 +40,8 @@ def startUI(nodes, edges, nodes_path, edges_path):
     ttk.Button(tab2, text="Create hostile link", command=callHostile).grid(
         column=1, row=3, padx=30, pady=20
     )
-
-    ttk.Button(tab2, text="Save CSV file", command=saveFile).grid(
+    callSaveFile=partial(saveFile, nodes, edges, nodes_path, edges_path)
+    ttk.Button(tab2, text="Save CSV file", command=callSaveFile).grid(
         column=0, row=4, padx=10, pady=10
     )
 

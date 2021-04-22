@@ -37,4 +37,4 @@ if function == 1:
     startUI(nodes, edges, nodes_path, edges_path)
 elif function == 2:
     # Run function in graph.py
-    Analysis(nodes[1:], edges[1:], nodes_path, edges_path)
+    Analysis(nodes, edges, nodes_path, edges_path)

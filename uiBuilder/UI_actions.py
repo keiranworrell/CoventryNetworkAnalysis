@@ -80,9 +80,11 @@ def newNode(char, pn, gen, nodes):
 
 
 def saveFile(nodes, edges, nodes_path, edges_path):
-    with open(nodes_path, "w") as file:
+    nodes_path_save=nodes_path.strip('"')
+    edges_path_save=edges_path.strip('"')
+    with open(nodes_path_save, "a") as file:
         writer = csv.writer(file)
         writer.writerows(nodes)
-    with open(edges_path, "w") as file:
+    with open(edges_path_save, "a") as file:
         writer = csv.writer(file)
         writer.writerows(edges)
