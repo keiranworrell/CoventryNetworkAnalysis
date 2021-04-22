@@ -1,0 +1,177 @@
+ID,Name,Page introduced,Gender
+1,Senzangakona,1,M
+2,Nandi,12,F
+3,Mudli,12,M
+4,Ndaba,12,
+5,Mfunda,12,F
+6,Kondlo,12,
+7,Mkabi,12,F
+8,Nomcoba,13,F
+9,E-Langeni children,13,M
+10,Shaka,12,M
+11,Mkabayi,14,F
+12,Langazana,14,F
+13,Mbengi,15,M
+14,Gendeyana,17,M
+15,Ngwadi,17,M
+16,Macingwane,17,M
+17,Ngomane,18,M
+18,King Jobe,18,M
+19,Mqombolo,18,M
+20,Mbiya,20,M
+21,Dingiswayo,21,M
+22,Buza,21,M
+23,Pampata,21,F
+24,Bungane,21,M
+25,Lord Caledon,21,
+26,Dr Cowan,21,
+27,Nqoboka,23,M
+28,Mgobozi,23,M
+29,Ngonyama,24,M
+30,The nameless one,28,M
+31,Pungashe,33,M
+32,Butelezi warrior,33,M
+33,Sondaba,35,F
+34,Bakuza,35,M
+35,Nyanya,36,M
+36,Sogidi,36,
+37,Kali,36,M
+38,Shandu,36,
+39,Donda,36,M
+40,The giant,36,M
+41,Witch-doctor,36,
+42,Zwide,43,M
+43,Zwangendaba,43,M
+44,Nowawa,43,F
+45,Mlota,44,M
+46,Ntombazi,44,F
+47,Yengondlovu commander,45,M
+48,Nondlovu,55,M
+49,Bibi,55,F
+50,Sigujana,55,M
+51,Senzangakona's body servants,55,
+52,Hlati,56,
+53,Siwangu,57,M
+54,Dingane,59,M
+55,Mpikase,59,F
+56,Makedama,69,M
+57,Mdlaka,73,M
+58,Ncidi,73,
+59,Nzobo,73,M
+60,Sobadli,73,
+61,Nomzintlanga,78,F
+62,Nobela,90,F
+63,Mqalane,106,M
+64,Matiwane,106,M
+65,Mtimkulu,106,M
+66,Mpangazita,108,M
+67,Mantatisi,108,F
+68,Sikonyela,108,
+69,Mshweshwe,109,M
+70,Colonel Somerset,109,
+71,Zikali,110,M
+72,Ntombazana,113,F
+73,Malusi,113,M
+74,Nomatuli,114,F
+75,Mashobane,118,M
+76,Mzilikazi,118,M
+77,Nomahlanjana,121,M
+78,Ndlela,122,M
+79,Njikiza,122,M
+80,Manyosi,130,M
+81,Dlekezele,130,
+82,Ndwandwe Warrior,130,
+83,Staff Induna,131,
+84,Nkayishana Kuzwayo,142,M
+85,Nombengula,143,M
+86,Mpepa,143,M
+87,Sixoloba,143,M
+88,Dayingubo,143,M
+89,Mlandela,150,M
+90,Soshangane,152,M
+91,Zikode,152,M
+92,Gaza,152,M
+93,Manukuza,152,
+94,Hlatshwayo,152,
+95,Nxaba,152,M
+96,Noluju,152,M
+97,Pakatwayo,152,M
+98,Ncozana,153,M
+99,Moni,153,
+100,Manzini,165,M
+101,Mpande,170,M
+102,Sigananda Cube,170,M
+103,Nombanga,174,M
+104,Sikunyana,181,M
+105,Somapunga,181,M
+106,Ntombazi's Guards,188,
+107,Mmama,197,F
+108,Mawa,197,F
+109,Gijima,202,F
+110,Mbuzikazi,204,F
+111,Zulu Hunters,209,
+112,Master of the hunt,211,
+113,Mbopa,216,M
+114,Sitayi,216,M
+115,Ngoza,217,M
+116,Sigwegwe,217,M
+117,Jobe,218,M
+118,Zulu Messenger,219,
+119,Mshika,223,M
+120,Kondlwane,223,M
+121,Mfusi,230,M
+122,Pakade,230,M
+123,Nzeni,233,M
+124,Junior witch-doctor,238,M
+125,Ndabazimbi,239,
+126,Songqoza,245,M
+127,Ntsense,245,
+128,Nqiwane,245,
+129,Mhlangana,249,M
+130,F. G. Farewell,255,
+131,Fynn,255,M
+132,Mhlope,256,
+133,Mbikwane,256,M
+134,Zulu Commander,256,M
+135,Jacob Msimbiti,257,M
+136,W. Owen,257,
+137,Thompson,258,
+138,Michael,263,M
+139,Isaacs,266,M
+140,Msika,267,
+141,Hlambamanzi,267,
+142,King,269,M
+143,Rain-Maker,274,
+144,John Ross,280,M
+145,Hutton,280,M
+146,Mtaniya,285,F
+147,Manyelela,285,
+148,Royal Matron,285,F
+149,Nomagwebu,289,F
+150,Shaka's Son,289,M
+151,Zulu Runner,290,
+152,Mashaya,296,M
+153,Beje,298,M
+154,Mlotsha,299,M
+155,John,299,M
+156,Zulu Bride,299,F
+157,Sobuza,304,M
+158,Barend Barends,305,
+159,Gala,316,M
+160,Girl in Shaka's harem,317,F
+161,Sotobe,326,
+162,Pikwane,326,M
+163,Bizwayo,326,
+164,Mbozamboza,326,
+165,Major Cleote,327,M
+166,Faku,330,M
+167,Manyundela,330,M
+168,Mabuya,330,
+169,Ogle,329,M
+170,Major Dundas,329,M
+171,Zulu Boys,333,M
+172,Nkunzi-Yezindlovu,336,
+173,John Cane,343,M
+174,Nomandlambi,343,M
+175,Zulu Attendants,348,
+176,Pampata's Guide,353,

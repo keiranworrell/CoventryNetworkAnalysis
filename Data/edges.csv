@@ -1,0 +1,442 @@
+Source,Target,Type,Weight,Friendly/Hostile,Pages
+1,2,undirected,1,Friendly,12
+3,4,undirected,1,Friendly,12
+5,6,undirected,1,Friendly,12
+5,2,undirected,1,Friendly,12
+7,2,undirected,3,Friendly,"12, 14, 59"
+7,1,undirected,1,Friendly,12
+7,5,undirected,1,Friendly,12
+8,2,undirected,5,Friendly,"13, 41, 59, 159, 289"
+8,1,undirected,1,Friendly,13
+9,10,undirected,1,Hostile,13
+2,10,undirected,14,Friendly,"13, 14, 41, 51, 65, 160, 197, 198, 215, 269, 270, 287, 309, 311"
+10,1,undirected,2,Friendly,"13, 54"
+10,1,undirected,1,Hostile,13
+2,1,undirected,1,Hostile,13
+12,7,undirected,2,Friendly,"14, 199"
+11,7,undirected,1,Friendly,14
+10,7,undirected,1,Friendly,14
+10,12,undirected,1,Friendly,14
+10,11,undirected,3,Friendly,"14, 59, 197"
+2,11,undirected,2,Friendly,"14, 197"
+2,12,undirected,2,Friendly,"14, 59"
+11,12,undirected,1,Friendly,14
+1,12,undirected,2,Friendly,"14, 59"
+13,10,undirected,1,Friendly,15
+14,10,undirected,1,Friendly,15
+14,2,undirected,1,Friendly,15
+14,15,undirected,1,Friendly,15
+2,15,undirected,2,Friendly,"15, 59"
+16,10,undirected,1,Friendly,17
+16,1,undirected,1,Hostile,17
+19,17,undirected,1,Friendly,18
+18,17,undirected,1,Friendly,18
+10,17,undirected,12,Friendly,"18, 19, 36, 58, 87, 117, 123, 132, 146, 314, 315, 346"
+2,17,undirected,1,Friendly,18
+10,20,undirected,4,Friendly,"20, 41, 53, 87"
+21,18,undirected,1,Hostile,21
+22,10,undirected,3,Friendly,"21, 23, 27"
+8,10,undirected,3,Friendly,"21, 41, 65"
+23,10,undirected,18,Friendly,"21, 23, 38, 41, 65, 68, 125, 157, 197, 201, 204, 259, 269, 270, 314, 318, 346, 346"
+23,8,undirected,5,Friendly,"21, 37, 41, 59, 159"
+24,21,undirected,1,Friendly,21
+26,25,undirected,1,Friendly,21
+26,21,undirected,1,Friendly,21
+6,26,undirected,1,Hostile,22
+10,28,undirected,27,Friendly,"23, 33, 34, 41, 68, 79, 82, 86, 98, 122, 123, 132, 148, 183, 196, 198, 211, 212, 223, 244, 248, 269, 272, 282, 291, 292, 292"
+10,27,undirected,14,Friendly,"23, 33, 34, 41, 55, 78, 124, 132, 146, 244, 248, 270, 292, 297"
+28,27,undirected,7,Friendly,"23, 33, 41, 124, 244, 270, 292"
+10,29,undirected,3,Friendly,"24, 27, 60"
+10,30,undirected,1,Friendly,28
+29,30,undirected,1,Friendly,28
+31,21,undirected,1,Hostile,33
+22,21,undirected,2,Friendly,"33, 35"
+32,10,undirected,1,Hostile,33
+34,33,undirected,1,Friendly,34
+1,33,undirected,1,Friendly,34
+1,34,undirected,1,Friendly,34
+21,10,undirected,8,Friendly,"35, 38, 42, 44, 46, 48, 58, 87"
+21,17,undirected,3,Friendly,"35, 38, 53"
+21,27,undirected,2,Friendly,"35, 38"
+21,28,undirected,2,Friendly,"35, 38"
+21,1,undirected,2,Friendly,"36, 53"
+36,35,undirected,1,Friendly,36
+21,35,undirected,1,Hostile,36
+21,37,undirected,1,Hostile,36
+38,37,undirected,1,Friendly,36
+39,21,undirected,1,Friendly,36
+10,40,undirected,1,Hostile,36
+23,2,undirected,10,Friendly,"37, 37, 41, 59, 149, 159, 197, 242, 249, 270"
+23,20,undirected,2,Friendly,"38, 41"
+2,20,undirected,2,Friendly,"38, 41"
+41,20,undirected,1,Friendly,38
+28,17,undirected,2,Friendly,"38, 123"
+27,17,undirected,2,Friendly,"38, 146"
+20,8,undirected,1,Friendly,41
+42,21,undirected,3,Hostile,"42, 46, 115"
+42,43,undirected,1,Friendly,42
+42,43,undirected,1,Hostile,42
+42,21,undirected,2,Friendly,"42, 113"
+42,44,undirected,1,Friendly,42
+42,45,undirected,1,Hostile,43
+42,46,undirected,3,Friendly,"43, 115, 181"
+10,47,undirected,1,Hostile,45
+10,47,undirected,1,Friendly,48
+1,17,undirected,1,Friendly,53
+48,27,undirected,1,Hostile,54
+48,21,undirected,1,Hostile,55
+50,49,undirected,1,Friendly,55
+50,1,undirected,1,Friendly,55
+49,1,undirected,1,Friendly,55
+51,1,undirected,1,Friendly,56
+51,52,undirected,1,Hostile,56
+10,15,undirected,1,Friendly,57
+50,15,undirected,1,Hostile,57
+53,21,undirected,1,Friendly,58
+53,10,undirected,1,Friendly,58
+17,53,undirected,1,Friendly,58
+55,1,undirected,1,Friendly,58
+55,54,undirected,1,Friendly,58
+1,54,undirected,1,Friendly,58
+15,8,undirected,1,Friendly,59
+15,23,undirected,2,Friendly,"59, 355"
+8,7,undirected,1,Friendly,59
+8,12,undirected,1,Friendly,59
+23,7,undirected,1,Friendly,59
+23,12,undirected,1,Friendly,59
+3,1,undirected,1,Friendly,61
+3,10,undirected,1,Hostile,61
+3,2,undirected,1,Hostile,61
+10,56,undirected,1,Hostile,69
+57,58,undirected,1,Friendly,73
+57,10,undirected,23,Friendly,"73, 79, 84, 86, 95, 98, 123, 132, 146, 169, 183, 196, 223, 228, 244, 270, 272, 282, 283, 304, 314, 330, 335"
+59,10,undirected,6,Friendly,"73, 79, 86, 123, 132, 244"
+59,60,undirected,1,Friendly,73
+31,10,undirected,1,Hostile,73
+31,42,undirected,1,Friendly,76
+61,10,undirected,1,Friendly,79
+61,7,undirected,1,Friendly,79
+2,28,undirected,2,Friendly,"83, 270"
+57,28,undirected,7,Friendly,"83, 98, 123, 223, 244, 270, 272"
+62,10,undirected,1,Friendly,90
+62,57,undirected,2,Hostile,"93, 249"
+62,28,undirected,1,Hostile,93
+10,62,undirected,2,Hostile,"99, 252"
+10,63,undirected,6,Friendly,"106, 154, 264, 271, 275, 290"
+21,64,undirected,1,Hostile,106
+65,64,undirected,1,Friendly,106
+65,24,undirected,1,Friendly,108
+65,64,undirected,2,Hostile,"108, 108"
+42,64,undirected,1,Hostile,108
+65,66,undirected,1,Friendly,108
+67,66,undirected,2,Hostile,"108, 109"
+67,68,undirected,1,Friendly,108
+67,69,undirected,1,Hostile,109
+64,66,undirected,1,Hostile,109
+64,57,undirected,2,Hostile,"110, 284"
+64,70,undirected,1,Hostile,110
+64,69,undirected,1,Friendly,111
+64,71,undirected,1,Friendly,111
+64,54,undirected,1,Hostile,111
+72,42,undirected,1,Friendly,111
+72,46,undirected,1,Friendly,111
+21,72,undirected,1,Hostile,114
+21,74,undirected,1,Friendly,114
+73,74,undirected,1,Friendly,114
+73,42,undirected,1,Hostile,114
+10,39,undirected,1,Friendly,117
+42,39,undirected,1,Hostile,118
+42,1,undirected,1,Friendly,119
+42,10,undirected,1,Hostile,119
+42,75,undirected,1,Friendly,121
+10,75,undirected,1,Hostile,121
+77,76,undirected,2,Friendly,"122, 142"
+77,27,undirected,2,Friendly,"122, 147"
+76,27,undirected,1,Friendly,122
+59,28,undirected,2,Friendly,"123, 244"
+57,59,undirected,2,Friendly,"123, 244"
+57,17,undirected,2,Friendly,"123, 146"
+59,17,undirected,1,Friendly,123
+27,57,undirected,4,Friendly,"124, 146, 244, 270"
+27,59,undirected,2,Friendly,"124, 244"
+79,78,undirected,1,Friendly,130
+10,78,undirected,2,Friendly,"130, 244"
+80,78,undirected,1,Hostile,130
+81,28,undirected,1,Friendly,131
+77,28,undirected,1,Friendly,142
+77,82,undirected,1,Friendly,142
+82,76,undirected,1,Friendly,142
+28,76,undirected,1,Friendly,142
+28,82,undirected,1,Friendly,142
+75,83,undirected,1,Friendly,143
+75,84,undirected,1,Friendly,143
+75,85,undirected,1,Friendly,143
+75,86,undirected,1,Friendly,143
+85,86,undirected,1,Friendly,143
+84,86,undirected,1,Friendly,143
+83,86,undirected,1,Friendly,143
+83,84,undirected,1,Friendly,143
+83,85,undirected,1,Friendly,143
+84,85,undirected,1,Friendly,143
+28,75,undirected,1,Hostile,143
+28,83,undirected,1,Hostile,143
+28,84,undirected,1,Hostile,143
+28,85,undirected,1,Hostile,143
+28,86,undirected,1,Hostile,143
+77,10,undirected,1,Friendly,147
+87,10,undirected,1,Friendly,150
+88,10,undirected,1,Friendly,150
+89,10,undirected,1,Friendly,150
+75,42,undirected,1,Hostile,118
+75,76,undirected,1,Friendly,118
+42,76,undirected,1,Friendly,118
+10,76,undirected,6,Friendly,"150, 169, 170, 183, 196, 228"
+90,91,undirected,1,Friendly,152
+92,91,undirected,1,Friendly,152
+92,93,undirected,1,Friendly,152
+42,90,undirected,1,Friendly,152
+43,90,undirected,3,Friendly,"152, 166, 168"
+43,94,undirected,1,Friendly,152
+95,42,undirected,1,Friendly,152
+96,42,undirected,2,Hostile,"152, 166"
+96,10,undirected,2,Friendly,"152, 166"
+97,10,undirected,1,Hostile,152
+98,99,undirected,1,Friendly,153
+98,10,undirected,1,Friendly,153
+98,97,undirected,1,Friendly,153
+2,61,undirected,1,Friendly,159
+8,61,undirected,1,Friendly,159
+23,61,undirected,1,Friendly,159
+10,100,undirected,1,Friendly,165
+42,100,undirected,1,Hostile,165
+90,95,undirected,1,Friendly,168
+57,76,undirected,1,Friendly,169
+54,10,undirected,1,Friendly,170
+101,10,undirected,1,Friendly,170
+102,10,undirected,1,Friendly,170
+102,101,undirected,1,Friendly,170
+102,54,undirected,1,Friendly,170
+101,54,undirected,1,Friendly,170
+101,76,undirected,1,Friendly,170
+54,76,undirected,1,Friendly,170
+102,76,undirected,1,Friendly,170
+103,10,undirected,1,Friendly,174
+103,90,undirected,1,Hostile,174
+10,90,undirected,1,Hostile,175
+42,104,undirected,1,Friendly,181
+42,105,undirected,1,Friendly,181
+10,46,undirected,2,Hostile,"181, 184"
+10,106,undirected,1,Friendly,188
+46,106,undirected,1,Hostile,188
+46,10,undirected,1,Friendly,192
+2,107,undirected,1,Friendly,197
+2,108,undirected,1,Friendly,197
+107,108,undirected,1,Friendly,197
+11,108,undirected,1,Friendly,197
+23,108,undirected,1,Friendly,197
+23,11,undirected,1,Friendly,197
+23,107,undirected,1,Friendly,197
+11,107,undirected,2,Friendly,"197, 335"
+10,107,undirected,1,Friendly,197
+10,108,undirected,1,Friendly,197
+10,109,undirected,1,Friendly,202
+10,110,undirected,4,Friendly,"204, 278, 287, 309"
+10,111,undirected,1,Friendly,209
+10,112,undirected,1,Friendly,211
+112,28,undirected,1,Friendly,211
+79,28,undirected,1,Friendly,212
+10,79,undirected,1,Friendly,212
+113,114,undirected,1,Friendly,216
+10,113,undirected,9,Friendly,"216, 229, 237, 242, 244, 270, 282, 306, 346"
+10,115,undirected,1,Hostile,217
+116,115,undirected,1,Friendly,217
+116,10,undirected,1,Friendly,217
+115,16,undirected,1,Friendly,217
+117,10,undirected,1,Friendly,218
+118,10,undirected,1,Hostile,219
+57,115,undirected,1,Hostile,218
+59,78,undirected,2,Friendly,"220, 244"
+119,120,undirected,1,Friendly,223
+10,119,undirected,1,Hostile,223
+113,76,undirected,1,Friendly,229
+16,121,undirected,1,Friendly,230
+16,122,undirected,1,Friendly,230
+16,57,undirected,1,Hostile,230
+10,76,undirected,1,Hostile,232
+123,76,undirected,1,Hostile,233
+123,10,undirected,1,Friendly,233
+124,10,undirected,1,Hostile,238
+124,125,undirected,1,Friendly,238
+10,125,undirected,1,Hostile,238
+113,28,undirected,2,Friendly,"244, 270"
+113,27,undirected,2,Friendly,"244, 270"
+113,57,undirected,2,Friendly,"244, 270"
+113,59,undirected,1,Friendly,244
+113,78,undirected,1,Friendly,244
+28,78,undirected,1,Friendly,244
+27,78,undirected,1,Friendly,244
+57,78,undirected,1,Friendly,244
+128,126,undirected,1,Friendly,245
+127,126,undirected,1,Friendly,245
+62,113,undirected,2,Hostile,"246, 253"
+62,27,undirected,1,Hostile,247
+62,54,undirected,1,Hostile,249
+62,129,undirected,1,Hostile,249
+10,129,undirected,1,Friendly,249
+10,126,undirected,1,Friendly,251
+10,128,undirected,1,Friendly,251
+130,131,undirected,3,Friendly,"255, 266, 286"
+132,10,undirected,2,Friendly,"256, 267"
+133,10,undirected,4,Friendly,"256, 257, 267, 269"
+133,131,undirected,2,Friendly,"256, 269"
+134,131,undirected,1,Friendly,256
+134,108,undirected,1,Friendly,256
+134,130,undirected,1,Friendly,256
+133,130,undirected,2,Friendly,"256, 269"
+135,136,undirected,1,Friendly,257
+135,130,undirected,2,Friendly,"258, 326"
+135,137,undirected,1,Hostile,258
+130,137,undirected,1,Friendly,258
+135,10,undirected,1,Friendly,258
+130,10,undirected,4,Friendly,"258, 266, 266, 286"
+131,10,undirected,9,Friendly,"258, 264, 286, 310, 329, 330, 331, 334, 344"
+23,131,undirected,1,Friendly,259
+23,130,undirected,1,Friendly,259
+138,131,undirected,1,Friendly,263
+63,131,undirected,1,Friendly,264
+139,130,undirected,2,Friendly,"266, 326"
+139,131,undirected,1,Friendly,266
+139,10,undirected,4,Friendly,"266, 290, 343, 343"
+130,10,undirected,1,Hostile,267
+130,133,undirected,1,Hostile,267
+130,140,undirected,1,Hostile,267
+130,132,undirected,1,Hostile,267
+130,141,undirected,1,Hostile,267
+132,141,undirected,1,Friendly,267
+140,141,undirected,1,Friendly,267
+133,141,undirected,1,Friendly,267
+10,141,undirected,1,Friendly,267
+10,140,undirected,1,Friendly,267
+140,132,undirected,1,Friendly,267
+133,132,undirected,1,Friendly,267
+133,140,undirected,1,Friendly,267
+142,10,undirected,3,Friendly,"269, 324, 343"
+133,139,undirected,1,Friendly,269
+2,57,undirected,1,Friendly,270
+2,27,undirected,1,Friendly,270
+2,113,undirected,1,Friendly,270
+23,113,undirected,1,Friendly,270
+23,27,undirected,1,Friendly,270
+23,57,undirected,1,Friendly,270
+23,28,undirected,1,Friendly,270
+143,10,undirected,1,Friendly,274
+110,23,undirected,1,Hostile,279
+139,142,undirected,2,Friendly,"280, 326"
+139,144,undirected,1,Friendly,280
+139,145,undirected,2,Friendly,"280, 326"
+144,145,undirected,1,Friendly,280
+142,145,undirected,2,Friendly,"280, 326"
+142,144,undirected,1,Friendly,280
+10,144,undirected,2,Friendly,"281, 281"
+69,64,undirected,1,Hostile,284
+69,10,undirected,1,Friendly,284
+57,54,undirected,1,Friendly,284
+57,129,undirected,1,Friendly,284
+54,129,undirected,6,Friendly,"284, 335, 336, 346, 348, 352"
+57,69,undirected,1,Friendly,285
+147,146,undirected,1,Friendly,285
+10,146,undirected,1,Friendly,285
+131,146,undirected,1,Friendly,285
+131,135,undirected,1,Friendly,285
+2,110,undirected,1,Friendly,288
+148,110,undirected,1,Friendly,288
+148,2,undirected,1,Friendly,288
+149,2,undirected,1,Friendly,289
+149,110,undirected,2,Friendly,"289, 310"
+8,110,undirected,1,Friendly,289
+150,2,undirected,2,Friendly,"289, 308"
+150,110,undirected,3,Friendly,"289, 309, 310"
+150,8,undirected,1,Friendly,289
+150,149,undirected,2,Friendly,"289, 310"
+151,10,undirected,1,Friendly,290
+152,28,undirected,1,Friendly,296
+104,28,undirected,1,Hostile,296
+104,10,undirected,1,Hostile,296
+10,153,undirected,1,Hostile,299
+10,154,undirected,2,Hostile,"299, 302"
+138,155,undirected,1,Friendly,299
+156,155,undirected,1,Hostile,299
+156,138,undirected,1,Hostile,299
+10,138,undirected,1,Hostile,299
+10,155,undirected,1,Hostile,299
+10,139,undirected,1,Hostile,299
+135,139,undirected,2,Friendly,"300, 326"
+153,139,undirected,1,Hostile,300
+153,135,undirected,1,Hostile,300
+154,10,undirected,1,Friendly,303
+57,157,undirected,1,Hostile,304
+57,158,undirected,1,Hostile,305
+76,158,undirected,1,Hostile,305
+150,10,undirected,1,Friendly,309
+131,2,undirected,1,Friendly,311
+10,159,undirected,1,Friendly,316
+10,160,undirected,1,Hostile,318
+130,142,undirected,1,Friendly,326
+130,145,undirected,1,Friendly,326
+162,163,undirected,1,Friendly,326
+162,10,undirected,1,Friendly,326
+145,161,undirected,1,Friendly,326
+145,164,undirected,1,Friendly,326
+145,162,undirected,1,Friendly,326
+145,135,undirected,1,Friendly,326
+130,162,undirected,1,Friendly,326
+130,164,undirected,1,Friendly,326
+130,161,undirected,1,Friendly,326
+139,161,undirected,1,Friendly,326
+139,164,undirected,1,Friendly,326
+139,162,undirected,1,Friendly,326
+142,135,undirected,1,Friendly,326
+142,162,undirected,1,Friendly,326
+142,164,undirected,1,Friendly,326
+142,161,undirected,1,Friendly,326
+164,161,undirected,1,Friendly,326
+162,161,undirected,1,Friendly,326
+135,161,undirected,1,Friendly,326
+135,162,undirected,1,Friendly,326
+135,164,undirected,1,Friendly,326
+162,164,undirected,1,Friendly,326
+165,139,undirected,1,Friendly,327
+165,142,undirected,1,Friendly,328
+166,57,undirected,1,Hostile,330
+10,167,undirected,1,Friendly,330
+168,167,undirected,1,Friendly,330
+169,57,undirected,1,Friendly,330
+10,166,undirected,1,Friendly,331
+10,166,undirected,1,Hostile,330
+170,64,undirected,1,Hostile,333
+171,10,undirected,1,Hostile,334
+11,54,undirected,3,Friendly,"335, 335, 346"
+11,129,undirected,2,Friendly,"335, 346"
+107,129,undirected,1,Friendly,335
+113,11,undirected,1,Friendly,335
+113,107,undirected,1,Friendly,335
+113,54,undirected,3,Friendly,"335, 348, 352"
+113,129,undirected,3,Friendly,"335, 348, 352"
+172,54,undirected,1,Friendly,336
+172,129,undirected,1,Friendly,336
+57,90,undirected,4,Hostile,"336, 336, 336, 336"
+10,173,undirected,1,Friendly,343
+10,164,undirected,1,Friendly,343
+10,174,undirected,1,Friendly,343
+164,174,undirected,1,Friendly,343
+173,174,undirected,1,Friendly,343
+173,164,undirected,1,Friendly,343
+17,23,undirected,2,Friendly,"346, 353"
+10,54,undirected,1,Hostile,349
+10,129,undirected,1,Hostile,349
+10,113,undirected,1,Hostile,349
+10,175,undirected,1,Friendly,348
+113,175,undirected,1,Hostile,350
+23,176,undirected,1,Friendly,353
+113,15,undirected,1,Hostile,356
+113,23,undirected,1,Hostile,357
