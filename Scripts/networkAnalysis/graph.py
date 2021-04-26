@@ -7,7 +7,7 @@ from networkAnalysis.betweenness_centrality import betweenness_centrality
 from networkAnalysis.remove_character import remove_character
 from networkAnalysis.giant_stability import test_giant_stability,get_giant_component
 from networkAnalysis.assortativity import get_assortativity
-
+from networkAnalysis.friendly_hostile_network import create_friendly_hostile_graph
 
 def Analysis(nodes, edges, nodes_path, edges_path):
     # Generate the network from nodes and edges lists
@@ -60,6 +60,18 @@ def Analysis(nodes, edges, nodes_path, edges_path):
     clustering(G)
     test_giant_stability(G)
 
+    hostileG = create_friendly_hostile_graph(G, "Hostile")
+    m_hostile, f_hostile, unknown_hostile = count_genders(hostileG)
+    print("\nHostile Network:")
+    print(
+        "Number of nodes = {}\nNumber of edges = {}\nMale characters = {}\nFemale characters = {}\nCharacter with unknown gender = {}".format(
+            hostileG.number_of_nodes(),
+            hostileG.number_of_edges(),
+            m_hostile,
+            f_hostile,
+            unknown_hostile
+        )
+    )
 
 def plotGraph(G):
     d = dict(G.degree)
