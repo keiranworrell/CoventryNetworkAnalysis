@@ -13,10 +13,14 @@ def Analysis(nodes, edges, nodes_path, edges_path):
     # Generate the network from nodes and edges lists
     print("Generating network")
     G = nx.Graph()
-    for node in nodes:
+    for node in nodes[1:]:
+        print(node)
         G.add_node(node[0], name=str(node[1]), gender=str(node[3]))
-    for edge in edges:
+    for edge in edges[1:]:
+        print(edge)
         G.add_edge(edge[0], edge[1], weight=int(edge[3]), friendly_hostile=str(edge[4]))
+    print(G.number_of_edges())
+    print(G.number_of_nodes())
     r, r_friendly = get_assortativity(G)
     m, f, unknown = count_genders(G)
     giant = get_giant_component(G)

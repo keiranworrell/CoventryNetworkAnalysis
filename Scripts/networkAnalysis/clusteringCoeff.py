@@ -1,43 +1,48 @@
 import networkx as nx
+import csv
 import matplotlib.pyplot as plt
+import numpy as np
 
+# Change before use
+clustering_path = (
+    "/Users/keiranworrell/Documents/Uni - 3rd Year/Dissertation/Data/clustering_dist.csv"
+)
+
+def bestfit(x):
+    y=0.2743+(2.58/x)
+    return y
 
 def clustering(G):
-    all_coefficients = [["degree", "clustering coefficients"]]
-    all_edges = G.edges()
-    for node in G:
-        if G.degree(node) > 2:
-            k = 0
-            N = 0
-            for nodei in G[node]:
-                N += 1
-                for edge in all_edges:
-                    if edge[0] == nodei and edge[1] in G[node]:
-                        k += 1
-            c = (2 * k) / (N * (N - 1))
+    clusteringCoeffs = [["Degree", "Number of Nodes", "Total Clustering Coefficient"]]
+    c = nx.clustering(G)
+    for key in c:
+        degree = G.degree(key)
+        degree_not_present = True
+        for i in range(len(clusteringCoeffs)):
+            if clusteringCoeffs[i][0] == str(degree):
+                clusteringCoeffs[i][1] = str(int(clusteringCoeffs[i][1])+1)
+                clusteringCoeffs[i][2] = str(float(clusteringCoeffs[i][2])+c[key])
+                degree_not_present = False
+        if degree_not_present:
+            clusteringCoeffs.append([str(degree), "1", str(c[key])])
 
-            placed = False
-            for i in range(len(all_coefficients)):
-                if all_coefficients[i][0] == G.degree(node):
-                    all_coefficients[i][1].append(c)
-                    placed = True
-            if not placed:
-                all_coefficients.append([G.degree(node), [c]])
+    with open(clustering_path, "w") as file:
+        writer = csv.writer(file)
+        writer.writerows(clusteringCoeffs)
+    print("LOG: Clustering coefficient distribution written to: {}".format(clustering_path))
     x = []
     y = []
-    all_coefficients.pop(0)
-    for i in range(len(all_coefficients)):
-        x.append(all_coefficients[i][0])
-        y.append(sum(all_coefficients[i][1]) / len(all_coefficients[i][1]))
-    x_inv = []
-    for val in x:
-        x_inv.append(1 / val)
-    plt.plot(x, y, "bx")
-    x_inv = []
-    x.sort()
-    for val in x:
-        x_inv.append(2.58 / val)
-    plt.plot(x, x_inv, "r")
-    plt.xlabel("Degree, k")
-    plt.ylabel("Average clustering coefficient")
-    plt.savefig("Plot_1.pdf")
+    for deg in clusteringCoeffs[1:]:
+        if (deg[0] != 1):
+            x.append(float(deg[0]))
+            y.append(float(deg[2])/float(deg[1]))
+    plt.clf()
+    plt.plot(x, y, 'ro')
+    plt.grid()
+    plt.xlabel("Degree, $k$")
+    plt.ylabel("Mean clustering coefficient, $C(k)$")
+    plt.title("A plot of degree $k$ against the mean clustering coefficient for that\ndegree, $C(k)$, with fitted curve $C(k)=0.2743+2.58k^{-1}$")
+    x = np.linspace(1, 110, 1000)
+    y = bestfit(x)
+    plt.plot(x,y,'b')
+    plt.savefig("clusterCoeff.pdf")

@@ -8,11 +8,13 @@ from uiBuilder.startUI import startUI
 
 function = int(input("Data Collection (1) or Network Analysis (2)?\n"))
 
-nodes_path = input('Path to nodes.csv (enclose path in " marks) : ')
-edges_path = input('Path to edges.csv (enclose path in " marks) : ')
+# Populate before use
+nodes_path = "/Users/keiranworrell/Documents/Uni - 3rd Year/Dissertation/Data/nodes.csv"
+edges_path = "/Users/keiranworrell/Documents/Uni - 3rd Year/Dissertation/Data/edges.csv"
 
 # If csv files exist, read data. Else, set edges and nodes
 if path.exists(nodes_path):
+    print("LOG: Nodes path exists, extracting data")
     with open(nodes_path, "r") as f:
         reader = csv.reader(f)
         nodes = list(reader)
@@ -20,6 +22,7 @@ else:
     nodes = [["ID", "Name", "Page introduced", "Gender"]]
 
 if path.exists(edges_path):
+    print("LOG: Edges path exists, extracting data")
     with open(edges_path, "r") as f:
         reader = csv.reader(f)
         edges = list(reader)
@@ -31,6 +34,9 @@ if len(nodes) < 1:
     nodes = [["ID", "Name", "Page introduced", "Gender"]]
 if len(edges) < 1:
     edges = [["Source", "Target", "Type", "Weight", "Friendly/Hostile", "Pages"]]
+
+print(nodes)
+print(edges)
 
 if function == 1:
     # Start GUI to collect data and add nodes/edges to lists
