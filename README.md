@@ -4,7 +4,7 @@ This repository is a collection of the scripts created throughout the final year
 
 Some of the scripts included in this repository are tailored for use with a network of this book, for example networkAnalysis/giant_stability.py contains some character names. If these scripts are to be used in the analysis of any other texts, the specifics for *Shaka Zulu* must first be removed.
 
-We have included two main pieces of functionality in this repository - one for collection of data, and one for the analysis of data. The main.py script will, when run, request that the user chooses between these functions and will then launch the requested one.
+We have included two main pieces of functionality in this repository - one for collection of data, and one for the analysis of data. The main.py script will, when run, request that the user chooses between these functions and will then launch the requested one. Note that before running this main.py script, the paths to the nodes and edegs .csv files must be specified in the script.
 
 ### Data Collection
 
@@ -19,6 +19,8 @@ Nodes and edges are saved to csv files in a location of the user's choice, and a
 ### Data Analysis
 
 The data analysis segment of the code extracts the network data from the .csv files in which the data collection scripts saved it. It then conducts various pieces of data analsis and outputs the results to the console.
+
+To run the data analsis, the main.py script should be called and the network analysis (2) option specified.
 
 This functionality is the most customised to analysing *Shaka Zulu*, for example creating a duplicate set of network data without the main character Shaka. This can be altered though.
 
