@@ -10,10 +10,6 @@ def random_graph(n, m):
     G = nx.gnm_random_graph(n, m)
     if nx.is_connected(G):
         sum_of_degrees = 0
-        for node in G.degree():
-            sum_of_degrees += node[1]
-        average_degree = sum_of_degrees / G.number_of_nodes()
-
         average_path_length = nx.average_shortest_path_length(G)
 
         clustering_coefficient = nx.average_clustering(G)
