@@ -1,7 +1,6 @@
 import networkx as nx
 import csv
 
-
 def remove_character(G, toRemove, nodes_path, edges_path):
     print("LOG: Removing {} from graph".format(toRemove))
     temp_nodes = []
@@ -21,14 +20,7 @@ def remove_character(G, toRemove, nodes_path, edges_path):
         temp_nodes.append([node[0], node[1]["name"], "NA", node[1]["gender"]])
     for edge in tempG.edges(data=True):
         temp_edges.append(
-            [
-                edge[0],
-                edge[1],
-                "undirected",
-                edge[2]["weight"],
-                edge[2]["friendly_hostile"],
-                "NA",
-            ]
+            [edge[0], edge[1], "undirected", edge[2]["weight"], edge[2]["friendly_hostile"], "NA"]
         )
 
     new_node_path = ("/".join(nodes_path.split("/")[:-1])) + "/nodes_no{}.csv".format(
@@ -45,3 +37,4 @@ def remove_character(G, toRemove, nodes_path, edges_path):
         writer = csv.writer(file)
         writer.writerows(temp_edges)
     return tempG
+    

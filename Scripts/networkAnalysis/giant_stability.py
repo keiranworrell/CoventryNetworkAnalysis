@@ -10,7 +10,7 @@ def test_giant_stability(G):
         "Zwide",
         "Mgobozi",
         "Nandi",
-        "Senzangakona",
+        "Senzangakona"
     ]
     for char in important_chars:
         g = test_stability_without(G, char)
