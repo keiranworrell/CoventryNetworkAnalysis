@@ -35,8 +35,6 @@ if len(nodes) < 1:
 if len(edges) < 1:
     edges = [["Source", "Target", "Type", "Weight", "Friendly/Hostile", "Pages"]]
 
-print(nodes)
-print(edges)
 
 if function == 1:
     # Start GUI to collect data and add nodes/edges to lists

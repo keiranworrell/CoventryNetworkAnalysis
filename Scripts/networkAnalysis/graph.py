@@ -11,22 +11,18 @@ from networkAnalysis.friendly_hostile_network import create_friendly_hostile_gra
 
 def Analysis(nodes, edges, nodes_path, edges_path):
     # Generate the network from nodes and edges lists
-    print("Generating network")
+    print("LOG: Generating network")
     G = nx.Graph()
     for node in nodes[1:]:
-        print(node)
         G.add_node(node[0], name=str(node[1]), gender=str(node[3]))
     for edge in edges[1:]:
-        print(edge)
         G.add_edge(edge[0], edge[1], weight=int(edge[3]), friendly_hostile=str(edge[4]))
-    print(G.number_of_edges())
-    print(G.number_of_nodes())
     r, r_friendly = get_assortativity(G)
     m, f, unknown = count_genders(G)
     giant = get_giant_component(G)
     print("With Shaka:")
     print(
-        "Number of nodes = {}\nNumber of edges = {}\nDegree assortativity = {}\nDegree assortativity for friendly network = {}\nMale characters = {}\nFemale characters = {}\nCharacter with unknown gender = {}\nGiant component = {}".format(
+        "Number of nodes = {}\nNumber of edges = {}\nDegree assortativity = {}\nDegree assortativity for friendly network = {}\nMale characters = {}\nFemale characters = {}\nCharacter with unknown gender = {}\nGiant component = {}\n".format(
             G.number_of_nodes(),
             G.number_of_edges(),
             r,
@@ -42,9 +38,9 @@ def Analysis(nodes, edges, nodes_path, edges_path):
     r_noShaka, r_friendly_noShaka = get_assortativity(G_noShaka)
     m_noShaka, f_noShaka, unknown_noShaka = count_genders(G_noShaka)
     giant_noShaka = get_giant_component(G_noShaka)
-    print("\nWithout Shaka:")
+    print("Without Shaka:")
     print(
-        "Number of nodes = {}\nNumber of edges = {}\nDegree assortativity = {}\nDegree assortativity for friendly network = {}\nMale characters = {}\nFemale characters = {}\nCharacter with unknown gender = {}\nGiant component = {}".format(
+        "Number of nodes = {}\nNumber of edges = {}\nDegree assortativity = {}\nDegree assortativity for friendly network = {}\nMale characters = {}\nFemale characters = {}\nCharacter with unknown gender = {}\nGiant component = {}\n".format(
             G_noShaka.number_of_nodes(),
             G_noShaka.number_of_edges(),
             r_noShaka,
@@ -64,7 +60,7 @@ def Analysis(nodes, edges, nodes_path, edges_path):
     m_hostile, f_hostile, unknown_hostile = count_genders(hostileG)
     print("\nHostile Network:")
     print(
-        "Number of nodes = {}\nNumber of edges = {}\nMale characters = {}\nFemale characters = {}\nCharacter with unknown gender = {}".format(
+        "Number of nodes = {}\nNumber of edges = {}\nMale characters = {}\nFemale characters = {}\nCharacter with unknown gender = {}\n".format(
             hostileG.number_of_nodes(),
             hostileG.number_of_edges(),
             m_hostile,
