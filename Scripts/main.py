@@ -9,8 +9,8 @@ from uiBuilder.startUI import startUI
 function = int(input("Data Collection (1) or Network Analysis (2)?\n"))
 
 # Populate before use
-nodes_path = "/Users/keiranworrell/Documents/Uni - 3rd Year/Dissertation/Data/nodes.csv"
-edges_path = "/Users/keiranworrell/Documents/Uni - 3rd Year/Dissertation/Data/edges.csv"
+nodes_path = ""
+edges_path = ""
 
 # If csv files exist, read data. Else, set edges and nodes
 if path.exists(nodes_path):
